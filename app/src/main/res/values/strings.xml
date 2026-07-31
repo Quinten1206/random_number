@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">概率决策器</string>
+    <string name="title_hint">请输入目标概率</string>
+    <string name="input_hint">例: 0.5, 1/2, 50%</string>
+    <string name="btn_generate">生成</string>
+    <string name="result_default">—</string>
+    <!-- 错误提示 -->
+    <string name="error_empty">请输入概率值</string>
+    <string name="error_format">格式错误，请使用小数、分数或百分比</string>
+    <string name="error_zero_denom">分母不能为零</string>
+    <string name="error_out_of_range">概率必须在 0 到 1 之间</string>
+    <string name="error_invalid_percent">无效的百分比格式</string>
+</resources>
