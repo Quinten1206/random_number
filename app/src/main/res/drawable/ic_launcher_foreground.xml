@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 骰子主体：白色圆角方块 + 黑色描边（中心 54,54，尺寸 48×48） -->
+    <path
+        android:pathData="M38,30 H70 A8,8 0 0 1 78,38 V70 A8,8 0 0 1 70,78 H38 A8,8 0 0 1 30,70 V38 A8,8 0 0 1 38,30 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#000000"
+        android:strokeWidth="2" />
+
+    <!-- 5 个黑点（经典五点骰面） -->
+    <path
+        android:pathData="M38.5,42 a3.5,3.5 0 1 0 7,0 a3.5,3.5 0 1 0 -7,0 Z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M62.5,42 a3.5,3.5 0 1 0 7,0 a3.5,3.5 0 1 0 -7,0 Z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M50.5,54 a3.5,3.5 0 1 0 7,0 a3.5,3.5 0 1 0 -7,0 Z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M38.5,66 a3.5,3.5 0 1 0 7,0 a3.5,3.5 0 1 0 -7,0 Z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M62.5,66 a3.5,3.5 0 1 0 7,0 a3.5,3.5 0 1 0 -7,0 Z"
+        android:fillColor="#000000" />
+</vector>

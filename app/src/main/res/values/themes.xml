@@ -1,3 +1,10 @@
 <resources>
-    <style name="Theme.RandomNumber" parent="Theme.MaterialComponents.Light.NoActionBar" />
+    <style name="Theme.RandomNumber" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_dark</item>
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="android:statusBarColor">@color/color_primary_dark</item>
+    </style>
 </resources>
