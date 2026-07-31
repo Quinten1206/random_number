@@ -129,3 +129,22 @@
 
 - [ ] （可选）真机/模拟器安装冒烟测试（adb install）
 - [ ] （可选）更新 versionCode/versionName 后重新打包
+
+---
+
+## 阶段二.5：UI 修复（用户反馈的两个问题）
+
+### 问题 1：预设概率 Chip 上出现 √、× 图标
+
+- **日期**：2026-07-31
+- **根因**：Chip 用了 `Widget.MaterialComponents.Chip.Entry` 样式 → 默认**可勾选**（显示勾选标记 √）+ 关闭图标（×），遮挡数字。
+- **修复**：改用 `Widget.MaterialComponents.Chip.Action` 样式（默认非 checkable），显式设 `checkedIconVisible="false"`、`closeIconVisible="false"`；chipBackgroundColor 白色 + 主色描边。
+- **踩坑**：`app:checkable` 在 material 1.12.0 不是有效属性 → aapt 报错（上一轮自定义 style 继承 `Widget.MaterialComponents.Chip` 也报 not found，属库私有样式）。最终方案：Action 样式 + 显式 XML 属性（最可靠）。
+
+### 问题 2："生成"按钮下出现意义不明的横线
+
+- **根因**：下方 `MaterialCardView` 的 `cardElevation="2dp"` 顶部阴影在浅灰背景上形成一条线，视觉上贴着按钮像 bug。
+- **修复**：`cardElevation="0dp"` + `cardUseCompatPadding="false"`，改用淡描边 `strokeColor="#E0E0E0"` `strokeWidth="1dp"` 清晰定义卡片边界。
+- **验证**：`./gradlew testDebugUnitTest assembleRelease` → **BUILD SUCCESSFUL**（18测试通过）
+- **产物**：`app/build/outputs/apk/release/app-release.apk` 已更新
+- **状态**：✅ 完成（待用户在真机确认横线是否消除）

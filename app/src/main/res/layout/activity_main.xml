@@ -72,143 +72,173 @@
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip0"
-            style="@style/Widget.MaterialComponents.Chip.Entry"
+            style="@style/Widget.MaterialComponents.Chip.Action"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:text="@string/common_0"
             android:textSize="16sp"
-            app:chipMinHeight="0dp"
-            app:chipMinTouchTargetSize="0dp"
+            app:checkedIconVisible="false"
+            app:closeIconVisible="false"
+            app:chipBackgroundColor="@color/color_surface"
             app:chipStrokeColor="@color/color_primary"
-            app:chipStrokeWidth="1dp" />
+            app:chipStrokeWidth="1dp"
+            app:chipMinHeight="0dp"
+            app:chipMinTouchTargetSize="0dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip1_10"
-            style="@style/Widget.MaterialComponents.Chip.Entry"
+            style="@style/Widget.MaterialComponents.Chip.Action"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:text="@string/common_1_10"
             android:textSize="16sp"
-            app:chipMinHeight="0dp"
-            app:chipMinTouchTargetSize="0dp"
+            app:checkedIconVisible="false"
+            app:closeIconVisible="false"
+            app:chipBackgroundColor="@color/color_surface"
             app:chipStrokeColor="@color/color_primary"
-            app:chipStrokeWidth="1dp" />
+            app:chipStrokeWidth="1dp"
+            app:chipMinHeight="0dp"
+            app:chipMinTouchTargetSize="0dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip1_5"
-            style="@style/Widget.MaterialComponents.Chip.Entry"
+            style="@style/Widget.MaterialComponents.Chip.Action"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:text="@string/common_1_5"
             android:textSize="16sp"
-            app:chipMinHeight="0dp"
-            app:chipMinTouchTargetSize="0dp"
+            app:checkedIconVisible="false"
+            app:closeIconVisible="false"
+            app:chipBackgroundColor="@color/color_surface"
             app:chipStrokeColor="@color/color_primary"
-            app:chipStrokeWidth="1dp" />
+            app:chipStrokeWidth="1dp"
+            app:chipMinHeight="0dp"
+            app:chipMinTouchTargetSize="0dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip1_4"
-            style="@style/Widget.MaterialComponents.Chip.Entry"
+            style="@style/Widget.MaterialComponents.Chip.Action"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:text="@string/common_1_4"
             android:textSize="16sp"
-            app:chipMinHeight="0dp"
-            app:chipMinTouchTargetSize="0dp"
+            app:checkedIconVisible="false"
+            app:closeIconVisible="false"
+            app:chipBackgroundColor="@color/color_surface"
             app:chipStrokeColor="@color/color_primary"
-            app:chipStrokeWidth="1dp" />
+            app:chipStrokeWidth="1dp"
+            app:chipMinHeight="0dp"
+            app:chipMinTouchTargetSize="0dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip1_3"
-            style="@style/Widget.MaterialComponents.Chip.Entry"
+            style="@style/Widget.MaterialComponents.Chip.Action"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:text="@string/common_1_3"
             android:textSize="16sp"
-            app:chipMinHeight="0dp"
-            app:chipMinTouchTargetSize="0dp"
+            app:checkedIconVisible="false"
+            app:closeIconVisible="false"
+            app:chipBackgroundColor="@color/color_surface"
             app:chipStrokeColor="@color/color_primary"
-            app:chipStrokeWidth="1dp" />
+            app:chipStrokeWidth="1dp"
+            app:chipMinHeight="0dp"
+            app:chipMinTouchTargetSize="0dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip1_2"
-            style="@style/Widget.MaterialComponents.Chip.Entry"
+            style="@style/Widget.MaterialComponents.Chip.Action"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:text="@string/common_1_2"
             android:textSize="16sp"
-            app:chipMinHeight="0dp"
-            app:chipMinTouchTargetSize="0dp"
+            app:checkedIconVisible="false"
+            app:closeIconVisible="false"
+            app:chipBackgroundColor="@color/color_surface"
             app:chipStrokeColor="@color/color_primary"
-            app:chipStrokeWidth="1dp" />
+            app:chipStrokeWidth="1dp"
+            app:chipMinHeight="0dp"
+            app:chipMinTouchTargetSize="0dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip2_3"
-            style="@style/Widget.MaterialComponents.Chip.Entry"
+            style="@style/Widget.MaterialComponents.Chip.Action"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:text="@string/common_2_3"
             android:textSize="16sp"
-            app:chipMinHeight="0dp"
-            app:chipMinTouchTargetSize="0dp"
+            app:checkedIconVisible="false"
+            app:closeIconVisible="false"
+            app:chipBackgroundColor="@color/color_surface"
             app:chipStrokeColor="@color/color_primary"
-            app:chipStrokeWidth="1dp" />
+            app:chipStrokeWidth="1dp"
+            app:chipMinHeight="0dp"
+            app:chipMinTouchTargetSize="0dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip3_4"
-            style="@style/Widget.MaterialComponents.Chip.Entry"
+            style="@style/Widget.MaterialComponents.Chip.Action"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:text="@string/common_3_4"
             android:textSize="16sp"
-            app:chipMinHeight="0dp"
-            app:chipMinTouchTargetSize="0dp"
+            app:checkedIconVisible="false"
+            app:closeIconVisible="false"
+            app:chipBackgroundColor="@color/color_surface"
             app:chipStrokeColor="@color/color_primary"
-            app:chipStrokeWidth="1dp" />
+            app:chipStrokeWidth="1dp"
+            app:chipMinHeight="0dp"
+            app:chipMinTouchTargetSize="0dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip4_5"
-            style="@style/Widget.MaterialComponents.Chip.Entry"
+            style="@style/Widget.MaterialComponents.Chip.Action"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:text="@string/common_4_5"
             android:textSize="16sp"
-            app:chipMinHeight="0dp"
-            app:chipMinTouchTargetSize="0dp"
+            app:checkedIconVisible="false"
+            app:closeIconVisible="false"
+            app:chipBackgroundColor="@color/color_surface"
             app:chipStrokeColor="@color/color_primary"
-            app:chipStrokeWidth="1dp" />
+            app:chipStrokeWidth="1dp"
+            app:chipMinHeight="0dp"
+            app:chipMinTouchTargetSize="0dp" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip1"
-            style="@style/Widget.MaterialComponents.Chip.Entry"
+            style="@style/Widget.MaterialComponents.Chip.Action"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:text="@string/common_1"
             android:textSize="16sp"
-            app:chipMinHeight="0dp"
-            app:chipMinTouchTargetSize="0dp"
+            app:checkedIconVisible="false"
+            app:closeIconVisible="false"
+            app:chipBackgroundColor="@color/color_surface"
             app:chipStrokeColor="@color/color_primary"
-            app:chipStrokeWidth="1dp" />
+            app:chipStrokeWidth="1dp"
+            app:chipMinHeight="0dp"
+            app:chipMinTouchTargetSize="0dp" />
     </GridLayout>
 
     <!-- 生成按钮 -->
@@ -223,15 +253,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="24dp" />
 
-    <!-- 结果展示卡片 -->
+    <!-- 结果展示卡片（无阴影，用淡描边定义边界） -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardResult"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:cardBackgroundColor="@color/color_surface"
         app:cardCornerRadius="16dp"
-        app:cardElevation="2dp"
-        app:cardUseCompatPadding="true"
+        app:cardElevation="0dp"
+        app:cardUseCompatPadding="false"
+        app:strokeColor="#E0E0E0"
+        app:strokeWidth="1dp"
         app:layout_constraintTop_toBottomOf="@id/btnGenerate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
